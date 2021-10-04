@@ -8,7 +8,7 @@ guesses = 0 #starting point for number of guesses taken
 
 while guesses < 3:
     print('Take a guess')
-    guess=input()
+    guess=input() #setting guess to the input of whatever I type
 
     guesses = guesses + 1 #increments the number of guesses each time
 
