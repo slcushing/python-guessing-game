@@ -12,10 +12,10 @@ while guesses < 3:
 
     guesses = guesses + 1 #increments the number of guesses each time
 
-    if guess < num:
+    if int(guess) < num:
         print('Too low')
     
-    if guess > num:
+    if int(guess) > num:
         print('Too high')
 
     if guess == num:
